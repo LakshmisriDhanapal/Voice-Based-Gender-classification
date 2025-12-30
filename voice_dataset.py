@@ -321,3 +321,4 @@ def predict_gender(model, npy_file):
     print(f"Probabilities::: Male: {male_prob * 100:.2f}%    Female: {female_prob * 100:.2f}%")
 
 predict_gender(model, '/content/male_clips/common_voice_ta_21279275_mfcc.npy')
+
